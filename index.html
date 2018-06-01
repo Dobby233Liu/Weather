@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-hans">
+<!-- Weather by Liu Wenyuan, this is a part of Weather. -->
+  <head>
+	<title>Weather</title>
+	<meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+	<style>
+	  #iframe {
+	   /** see https://codepen.io/shshaw/full/gEiDt **/
+        margin: auto;
+        position: absolute;
+        top: 0;
+		left: 0; 
+		bottom: 0;
+		right: 0;
+	   /** In order to remove HTML5 banned things. **/
+		width: 140px;
+		height: 410px;
+		border: none;
+		overflow: visible;
+		background: transparent;
+      }
+	 #img {
+	   /** default **/
+	   border: 0;
+	   width: 88px;
+	   height: 31px;
+	 }
+    </style>
+  </head>
+  <body>
+	<iframe 
+	  id="iframe"
+	  src="http://tianqi.2345.com/plugin/widget/index.htm?s=1&z=1&t=1&v=1&d=5&bd=0&k=&f=&q=1&e=1&a=1&w=140&h=410&align=center"
+	>
+	</iframe>
+	<footer>
+	 <p>
+         <img id="img"
+             src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+             alt="Valid CSS!" />
+     </p>
+	</footer>
+  </body>
+</html>
